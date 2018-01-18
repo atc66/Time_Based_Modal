@@ -94,13 +94,19 @@ a:hover, a:link {
 
 .test{
 	width: 50%;
-	height: 50%;
-	background-color: red;
-	opacity: 50%;
+	height: 100%;
+	background-color: white;
+	opacity: 0.5;
+	margin: 0 auto;
+	overflow: scroll;
+}
+
+.p {
+	text-align: center;
 }
 
 .buttons {
-	margin:0 auto;
+	text-align: center;
 }
 
 @media all and (max-width: 480px){
