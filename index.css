@@ -73,13 +73,40 @@ a:hover, a:link {
 	width: 50%;
 	height: 50%;
 	margin: 0 auto;
-	z-index: 2;
+	z-index: 5;
 }
 
-#close {
+#closer {
 	height: 5%;
 	width: 5%;
 	float: right;
+}
+
+#text{
+	width:50%;
+	margin:0 auto;
+
+}
+
+#join{
+	width:33%;
+}
+
+.test{
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	opacity: 0.5;
+	margin: 0 auto;
+	overflow: scroll;
+}
+
+.p {
+	text-align: center;
+}
+
+.buttons {
+	text-align: center;
 }
 
 @media all and (max-width: 480px){

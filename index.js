@@ -1,7 +1,7 @@
 console.log('hello')
 
 var modal = document.getElementById('pop')
-var close = document.getElementById('close')
+var closer = document.getElementById('closer')
 
 
 setTimeout(function() {
@@ -17,7 +17,7 @@ setTimeout(function() {
 //     modal.style.display = "none";
 // }
 
-close.addEventListener('click', function(){
+closer.addEventListener('click', function(){
 	modal.style.display = "none";
 })
 
