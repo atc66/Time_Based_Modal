@@ -6,7 +6,7 @@ var close = document.getElementById('close')
 
 setTimeout(function() {
 	modal.style.display = "block";
-	animation: "fade";
+	modal.fadeIn("slow");
 }, 3000);
 
 // function xout(){
