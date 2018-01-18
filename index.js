@@ -6,6 +6,7 @@ var close = document.getElementById('close')
 
 setTimeout(function() {
 	modal.style.display = "block";
+	animation: "fade";
 }, 3000);
 
 // function xout(){
@@ -19,3 +20,4 @@ setTimeout(function() {
 close.addEventListener('click', function(){
 	modal.style.display = "none";
 })
+
